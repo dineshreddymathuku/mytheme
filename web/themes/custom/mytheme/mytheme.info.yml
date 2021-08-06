@@ -1,0 +1,30 @@
+name: mytheme
+type: theme
+description: This is the Drupal Custom Theme
+core_version_requirement: ^8 || ^9
+base_theme: classy
+screenshot: screenshot.png
+libraries:
+  - mytheme/global-styling
+regions:
+  #header: Header
+  #content: Content
+  #sidebar_first: Sidebar First
+  #footer: Footer
+
+  header: Header
+  primary_menu: Primary Menu
+  navigation: Main navigation
+  secondary_menu: Secondary Menu
+  slide: Slide
+  content: Content
+  left_sidebar: Left sidebar
+  right_sidebar: Right sidebar
+  page_top: Page Top
+  page_bottom: Page Bottom
+  footer: Footer
+
+
+
+
+
