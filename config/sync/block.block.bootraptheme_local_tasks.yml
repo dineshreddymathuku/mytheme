@@ -1,0 +1,22 @@
+uuid: 58e31fb4-1c31-460e-9b78-a5ce63af459c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bootraptheme
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: bootraptheme_local_tasks
+theme: bootraptheme
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

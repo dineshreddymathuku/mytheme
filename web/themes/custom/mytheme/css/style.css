@@ -42,6 +42,20 @@
 .is-active{
   padding: 5px;
 }
+.slide{
+  display: block ;
+  width:50%;
+  margin: 0 auto;
+
+}
+.slies>img{
+  width: 100%;
+}
+.slide::after
+{
+content: '';
+  clear: both;
+}
 .menu{
   display: flex;
 
@@ -56,10 +70,11 @@
   display: flex;
   justify-content: space-between;
 }
-.slide{
-  display: center;
-}
 
+
+#content{
+  padding: 16px;
+}
 .main.content {
   flex: 0 1 65%;
   background-color: grey;
@@ -70,9 +85,13 @@
 }
 #sidebar{
   background-color: #b3daf0;
+  width:800px;
+  max-width: 100%;
 }
 #sidebar2{
   background-color: #b6ffb6;
+  width:800px;
+  max-width: 100%;
 }
 .region-left-sidebar{
   background-color: #eeeeee;

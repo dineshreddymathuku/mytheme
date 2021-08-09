@@ -1,0 +1,22 @@
+uuid: 08004f72-cb75-4957-90c2-b4138e55d825
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstraptheme
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: bootstraptheme_powered
+theme: bootstraptheme
+region: footer
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

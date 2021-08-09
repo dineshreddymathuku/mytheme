@@ -1,0 +1,23 @@
+uuid: 026e4041-2b4e-423a-9667-8d242387f60c
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - bootstraptheme
+_core:
+  default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
+id: bootstraptheme_search
+theme: bootstraptheme
+region: left_top
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+  page_id: ''
+visibility: {  }

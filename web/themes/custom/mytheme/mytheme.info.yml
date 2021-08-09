@@ -5,7 +5,7 @@ core_version_requirement: ^8 || ^9
 base_theme: classy
 screenshot: screenshot.png
 libraries:
-  - mytheme/global-styling
+  - myth/global-styling
 regions:
   #header: Header
   #content: Content

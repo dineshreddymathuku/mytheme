@@ -1,0 +1,17 @@
+type: theme
+base theme: bootstrap
+core: 8.x
+core_version_requirement: ^8 || ^9
+name: 'Bootstrap Sub theme'
+description: 'A Drupal Bootstrap based sub-theme.'
+package: 'Bootstrap'
+regions:
+  left_top: 'Left Top'
+  primary_menu: 'Primary Menu'
+  right_top: 'Right Top'
+  featured_top: 'Featured Top'
+  content: 'Content'
+  footer: 'Footer'
+libraries-extend:
+  bootstrap/framework:
+    - 'bootstraptheme/framework'

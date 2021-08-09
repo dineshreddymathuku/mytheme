@@ -1,0 +1,25 @@
+uuid: 54ceee4b-7139-48b8-a0d6-6ce8c4886ac7
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstraptheme
+_core:
+  default_config_hash: Cy3vkpYrD1O5JG-BeEnokF0bByHYDEa8CBfWivB4_SQ
+id: bootstraptheme_branding
+theme: bootstraptheme
+region: left_top
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

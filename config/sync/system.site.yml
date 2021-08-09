@@ -1,0 +1,14 @@
+uuid: cc022c7e-084b-4d32-9038-a30d16a0b5ca
+name: mytheme
+mail: mytheme@gmail.com
+slogan: 'this is my new theme '
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

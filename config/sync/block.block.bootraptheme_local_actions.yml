@@ -1,0 +1,20 @@
+uuid: a6046d3c-1539-4fde-ae9e-4b9a63f1ae92
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bootraptheme
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: bootraptheme_local_actions
+theme: bootraptheme
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
